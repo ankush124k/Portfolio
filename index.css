@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    background-color:aliceblue;
+}
+/* about section */
+
+.about{
+    /* background-color: antiquewhite; */
+    text-align: justify;
+    text-wrap: balance;
+   
+}
+
+.about p{
+    padding: 50px;
+    margin: 40px;
+}
+
+.about-head{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    padding: 50px;
+}
+
+.profile-pic{
+    display: block;
+    border-radius: 100%;
+    width: 200px;
+}
+/* education section */
+
+.education{
+    /* background-color:antiquewhite; */
+    margin: 2px;
+    /* border: 1px solid black; */
+}
+
+.education-list{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.college{
+    margin: 10px;
+    padding: 2px;
+}
+
+.school{
+    margin: 10px;
+    padding: 2px;
+}
+
+/* projects section */
+.projects{
+    /* background-color:antiquewhite; */
+    margin: 2px;
+    /* border: 1px solid black; */
+}
+
+.project-list{
+    text-align:left;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-gpt{
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.youtube-clone{
+    padding: 20px;
+    margin-right: 10px;
+}
